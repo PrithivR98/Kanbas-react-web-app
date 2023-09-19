@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanbas Assignment edit</title>
+</head>
+<body>
+    <h1>Kanbas Application</h1>
+    <!--<h2>Table Tag</h2> -->
+    <table width="100%">
+        <thead>
+            <tr>
+                <td valign="top">
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Calender</a></li>
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Studio</a></li>
+                        <li><a href="#">Commons</a> </li>
+                        <li><a href="#">Help</a>  </li>
+                    </ul>
+                </td>
+                <td valign="top">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Modules</a></li>
+                        <li><a href="#">Piazza</a></li>
+                        <li><a href="#">Zoom Meetings</a></li>
+                        <li><a href="#">Assignments</a></li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="grades.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">Panopto Video</a></li>
+                        <li><a href="#">Discussions</a></li>
+                        <li><a href="#">Annoucements</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Rubrics</a></li>
+                        <li><a href="#">Outcomes</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </td>
+                <td valign="top">
+                    <select id="select-one-method">
+                        <option selected value="SPEED_GRADER">Speed Grader</option>
+                    </select>
+
+                    <h3>Assignment Name</h3>
+
+                    <input type="text"
+                           placeholder="A1 - ENV + HTML"
+                           id="text-fields" />
+                    <br />
+
+                    <form id="textarea">
+                        <textarea cols="15" rows="5">This is the assigment description.</textarea>
+                    </form>
+                    <br />
+                    <label for="text-fields-points">
+                        Points:
+                    </label>
+                    <input type="number"
+                           id="text-fields-salary-start"
+                           placeholder="1000"
+                           value="100000" />
+                    <br />
+                    <br />
+                    <label for="select-one-option">
+                        Assigment Group:
+                    </label><br />
+                    <select id="select-one-genre">
+                        <option value="ASSIGNMENTS">ASSIGNMENTS</option>
+                    </select>
+                    <br />
+                    <br />
+
+                    <label for="select-one-option">
+                        Display Grade As
+                    </label>
+                    <br />
+
+                    <select id="select-one-genre">
+                        <option value="PERCENTAGE">Percentage</option>
+                    </select>
+                    <br />
+                    <br />
+
+                    <label for="select-one-option">
+                        Submission Type
+                    </label>
+                    <br />
+                    <br />
+                    <select id="select-one-genre">
+                        <option value="ONLINE">Online</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label>Online Entry Options:</label>
+                    <br />
+                    <input type="checkbox" value="Text"
+                           name="check-genre" id="chkbox-comedy" checked />
+                    <label for="chkbox-comedy">Text Entry</label>    <br />
+                    <input type="checkbox" value="DRAMA"
+                           name="check-genre" id="chkbox-drama" />
+                    <label for="chkbox-drama">Website URL</label>    <br />
+                    <input type="checkbox" value="SCIFI"
+                           name="check-genre" id="chkbox-scifi" checked />
+                    <label for="chkbox-scifi">Media Recordings</label> <br />
+                    <input type="checkbox" value="FANTASY"
+                           name="check-genre" id="chkbox-fantasy" />
+                    <label for="chkbox-fantasy">File Uploads</label>
+                    <br />
+                    <br />
+
+                    <label for="select-one-option">
+                        Submission Attempts
+                    </label>
+                    <br />
+
+                    <select id="select-one-genre">
+                        <option value="UNLIMITED">Unlimited</option>
+                    </select>
+                    <br />
+                    <br />
+
+                    <label for="select-one-option">
+                        Plagarism Review
+                    </label>
+                    <br />
+
+                    <select id="select-one-genre">
+                        <option value="NONE">None</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label> Group Assigment</label>
+                    <br />
+                    <input type="checkbox" value="Text"
+                           name="check-genre" id="chkbox-comedy" checked />
+                    <label for="chkbox-comedy">This is a group assignment</label><br />
+                    <br />
+                    <br />
+
+                    <label>Peer Reviews</label>
+                    <br />
+                    <input type="checkbox" value="Text"
+                           name="check-genre" id="chkbox-comedy" checked />
+                    <label for="chkbox-comedy">Require Peer Reviews</label><br />
+                    <br />
+                    <br />
+
+                    <label for="text-fields-dob">
+                        Due:
+                        <br />
+                    </label>
+                    <input type="date"
+                           id="text-fields-dob"
+                           value="2000-01-21" /><br />
+                    <br />
+                    <br />
+
+
+                    <label for="select-one-option">
+                        Assign
+                        <br />
+                        Assign to
+                    </label>
+                    <br />
+                    <select id="select-one-genre">
+                        <option value="EVERYONE">Everyone</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label for="text-fields-dob">
+                        Available from:
+                        <br />
+                    </label>
+                    <input type="date"
+                           id="text-fields-dob"
+                           value="2000-01-21" /><br />
+                    <br />
+                    <br />
+
+                    <label for="text-fields-dob">
+                        Until:
+                        <br />
+                    </label>
+                    <input type="date"
+                           id="text-fields-dob"
+                           value="2000-01-21" /><br />
+                    <br />
+                    <br />
+
+                    <button type="button">Cancel</button>
+                    <button type="button">Save</button>
+                </td>
+            </tr>
+
+    </table>
+
+</body>
+</html>
