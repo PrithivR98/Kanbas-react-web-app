@@ -1,0 +1,374 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <link rel="stylesheet" href="dashboard_v1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="black-bar">
+        <div class="top-image" style="align-items:center">
+            <img src="northeastern_logo.png">
+        </div>
+        <div class="icon-links">
+            <a href="profile/index.html">
+                <i class="fas fa-user"></i>
+                <span>Account</span>
+            </a>
+            <a href="Dashboard_v1.html">
+                <i class="fas fa-folder-open"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="home.html" style="background-color: white; color: black;">
+                <i class="fas fa-book" style="color: grey;"></i>
+                <span>Courses</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-compass"></i>
+                <span>Groups</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-calendar"></i>
+                <span>Calender</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+                <span>Inbox</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-clock"></i>
+                <span>History</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-video"></i>
+                <span>Studio</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <span>Commons</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-question"></i>
+                <span>Help</span>
+            </a>
+        </div>
+    </div>
+    <div class="white-bar">
+
+        <ul class="list-unstyled">
+            <li class="active2"><a href="home.html" style="color:black">Home</a></li>
+            <li><a href="#">Modules</a></li>
+            <li><a href="#">Piazza</a></li>
+            <li><a href="#">Zoom Meetings</a></li>
+            <li><a href="assignments/index.html">Assignments</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="grades.html">Grades</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Panopto Video</a></li>
+            <li><a href="#">Discussions</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Files</a></li>
+            <li><a href="#">Rubrics</a></li>
+            <li><a href="#">Outcomes</a></li>
+            <li><a href="#">Collaborations</a></li>
+            <li><a href="#">Syllabus</a></li>
+            <li><a href="courses/index.html">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <!-- Your main content goes here -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">CS5610.11744.202310</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+            </ol>
+        </nav>
+        <hr />
+        <br />
+        <div class="flex-container">
+            <div>
+                <input type="email"
+                       class="form-control"
+                       id="input1"
+                       placeholder="Search for Assignment"
+                       style="width:200px">
+            </div>
+            <div>
+                <button type="button" class="btn btn-light float-end">Collapse All</button>
+                <button type="button" class="btn btn-light" style="text-align:right;">View Progress</button>
+                <button type="button" class="btn btn-light" style="text-align:right;"><i class="fa-solid fa-check" style="color:green"></i>Publish All</a></button>
+                <button type="button" class="btn btn-danger" style="text-align:right;">+Module</a></button>
+
+                <button type="button" class="btn btn-light" style="text-align:right;"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+        </div>
+        <hr />
+        <div class="header-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text">WEEK 0 : Intro</span>
+            </div>
+            <div class="icons">
+                <button type="button" class="btn btn-light">40% of Total</button>
+
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa fa-ellipsis-v"></i>
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" ">LEARNING OBJECTIVES</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Introduction to the course</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Learn what is Web Development</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Creating a development environment</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Creating a Web Application</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Getting started with the 1st Assignment</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text">READING</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Full Stack Developer - Chapter 1 - Introduction</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text" style="margin-left:15px;">Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <span class="text">SLIDES</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <a href="#" style="color: red; margin-left: 15px;">Introduction to Web Development</a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <a href="#" style="color: red; margin-left: 15px;">Creating an HTTP server with Node.js</a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+
+        <div class="element-container">
+            <div class="gray-box">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+                <a href="#" style="color:red; margin-left:15px;">Creating a REACT Application</a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-check" style="color:green"></i>
+                <i class="fa fa-ellipsis-v"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="white-bar-1">
+
+        <h4>Course Status</h4>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-light mb-2">
+                    <i class="fas fa-check"></i> Unpublish
+                </button>
+            </div>
+
+            <div class="col">
+                <button class="btn btn-success mb-2" disabled>
+                    <i class="fas fa-check"></i> Published
+                </button>
+            </div>
+        </div>
+
+        <ul class="list-unstyled">
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-upload"></i> <a href="#" class="text-danger">Import Existing Content</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-upload"></i> <a href="#" class="text-danger">Import from Commons</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-home"></i> <a href="#" class="text-danger">Choose Home Page</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-eye"></i> <a href="#" class="text-danger">View Course Stream</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-bullhorn"></i> <a href="#" class="text-danger">New Announcement</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-chart-bar"></i> <a href="#" class="text-danger">New Analytics</a></li>
+            <li class="list-group-item list-group-item-secondary"><i class="fas fa-bell"></i> <a href="#" class="text-danger">View Course Notifications</a></li>
+            <!-- Add the rest of the list items here -->
+        </ul>
+
+        <h4>To Do</h4>
+        <hr />
+        <div class="flex-container">
+            <i class="fa-solid fa-circle-exclamation" style="color:red" ;></i>
+            <div class="flex-container">
+                <span class="text" style="color:red;">Grade A1 - ENV + HTML</span>
+            </div>
+        </div>
+
+
+        <h2 class="d-inline-block mr-2">Coming Up</h2>
+        <a href="#" class="text-danger d-inline-block">
+            <i class="fas fa-calendar-alt mr-1"></i>View Calendar
+        </a>
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-danger">Lecture</a></li>
+            <li>CS4550.12631.202410</li>
+            <li>Sep 7 at 11:45 A.M</li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-danger">Lecture</a></li>
+            <li>CS4550.12631.202410</li>
+            <li>Sep 11 at 11:45 A.M</li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-danger">Lecture</a></li>
+            <li>CS5610.06 SP3</li>
+            <li>Sep 11 at 6 P.M</li>
+        </ul>
+    </div>
+
+</body>
+</html>

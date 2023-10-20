@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <link rel="stylesheet" href="Test_Grades.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="black-bar">
+        <div class="top-image" style="align-items:center">
+            <img src="northeastern_logo.png" alt="Your Image">
+        </div>
+        <div class="icon-links">
+            <a href="profile/index.html">
+                <i class="fas fa-user"></i>
+                <span>Account</span>
+            </a>
+            <a href="Dashboard_v1.html">
+                <i class="fas fa-folder-open"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" style="background-color: white; color: black;">
+                <i class="fas fa-book" style="color: grey;"></i>
+                <span>Courses</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-compass"></i>
+                <span>Groups</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-calendar"></i>
+                <span>Calender</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+                <span>Inbox</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-clock"></i>
+                <span>History</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-video"></i>
+                <span>Studio</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-arrow-right"></i>
+                <span>Commons</span>
+            </a>
+            <a href="#">
+                <i class="fas fa-question"></i>
+                <span>Help</span>
+            </a>
+        </div>
+    </div>
+    <div class="white-bar">
+
+        <ul class="list-unstyled">
+            <li class="active2"><a href="home.html">Home</a></li>
+            <li><a href="#">Modules</a></li>
+            <li><a href="#">Piazza</a></li>
+            <li><a href="#">Zoom Meetings</a></li>
+            <li><a href="assignments/index.html">Assignments</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="grades.html" style="color:black">Grades</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Panopto Video</a></li>
+            <li><a href="#">Discussions</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Files</a></li>
+            <li><a href="#">Rubrics</a></li>
+            <li><a href="#">Outcomes</a></li>
+            <li><a href="#">Collaborations</a></li>
+            <li><a href="#">Syllabus</a></li>
+            <li><a href="courses/index.html">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <!-- Your main content goes here -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">CS5610.11744.202310</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+            </ol>
+        </nav>
+        <hr />
+        <br />
+        <div class="flex-container">
+            <div>
+
+            </div>
+            <div>
+                <button type="button" class="btn btn-light float-end"><i class="fa-solid fa-file-import"></i>Import</button>
+                <button type="button" class="btn btn-light" style="text-align:right;"><i class="fa-solid fa-file-export"></i>Export</button>
+                <button type="button" class="btn btn-light" style="text-align:right;"><i class="fa-solid fa-gear"></i></button>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div>
+                <label for="input1"
+                       class="form-label">
+                    Student Names
+                </label>
+                <br />
+                <select class="form-select">
+                    <option selected>Search Students</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="input1"
+                       class="form-label">
+                    Assignment Names
+                </label>
+                <br />
+                <select class="form-select">
+                    <option selected>Search Assignments</option>
+
+                </select>
+            </div>
+        </div>
+        <br />
+        <button type="button" class="btn btn-light float-end"><i class="fa-solid fa-filter"></i>Apply Filters</button>
+
+        <table class="table">
+            <thead>
+                <tr class="table-white"><th>Student Names</th><th>A1 SETUP<br />Out of 100</th><th>A2 HTML<br /> Out of 100</th><th>A3 CSS <br />Out of 100</th><th>A4 BOOTSTRAP<br /> Out of 100</th></tr>
+            </thead>
+            <tbody>
+                <tr class="table-white"><td><span class="Text" style="color:red">Doxa Asibey</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Thuy Tien Bui</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Yetong Chen</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Zhenyu Chen</span></td><td>100%</td><td>100%</td><td><input id="text-fields-username" placeholder="Grade" style="width:50px"></td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Yung-Shin Chien</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Basil Coughlan</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Rachel Dao</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Lana Do</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Karthikey Dwivedi</span></td><td>100%</td><td><input id="text-fields-username" placeholder="Grade" style="width:50px"></td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Jiarong Feng</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+                <tr class="table-white"><td><span class="Text" style="color:red">Saurabh Sunil Gade</span></td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</body>
+</html>
