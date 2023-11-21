@@ -6,51 +6,27 @@ import './index.css'; // Import the CSS file
 
 function KanbasNavigation() {
     const links = [
-        { link: "Account", icon: faUser },
-        { link: "Dashboard", icon: faTachometerAlt },
-        { link: "Courses", icon: faBook },
-        { link: "Calendar", icon: faCalendar },
-        { link: "Inbox", icon: faInbox },
-        { link: "History", icon: faHistory },
-        { link: "Studio", icon: faChalkboard },
-        { link: "Comments", icon: faComments },
-        { link: "Help", icon: faQuestionCircle }
+        { label: "Account", icon: faUser },
+        { label: "Dashboard", icon: faTachometerAlt },
+        { label: "Courses", icon: faBook },
+        { label: "Calendar", icon: faCalendar },
+        { label: "Inbox", icon: faInbox },
+        { label: "History", icon: faHistory },
+        { label: "Studio", icon: faChalkboard },
+        { label: "Comments", icon: faComments },
+        { label: "Help", icon: faQuestionCircle }
     ];
 
     const { pathname } = useLocation();
 
-    const listItemStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        textDecoration: 'none',
-        color: 'white',
-        margin: '5px',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        height: '60px',
-        fontSize: '7px',
-    };
-
-    const iconStyle = {
-        fontSize: '32px',
-        marginBottom: '5px',
-        color:'red'
-    };
-
-    const linkTextStyle = {
-        color: 'white', // Set the font color to white
-    };
-
     return (
         <div className="sidebar">
-        <img src={require('./northeastern_logo.png')} alt="College Emblem" className="college-emblem" />
+            <img src="../../images/seal.jpg" alt="College Emblem" className="college-emblem" />
             <ul className="navigation-list">
                 {links.map((link, index) => (
-                    <li key={index} className={pathname.includes(link.link) ? 'active' : ''} style={listItemStyle}>
-                        <Link to={`/Kanbas/${link.link}`}>
-                            <FontAwesomeIcon icon={link.icon} size="2x" style={iconStyle} />
-                            <span style={linkTextStyle}>{link.link}</span>
-                        </Link>
+                    <li key={index} className={pathname.includes(link.label) ? 'active' : ''}>
+                        <FontAwesomeIcon icon={link.icon} size="2x" style={{ color: 'red' }} />
+                        <Link to={`/Kanbas/${link.label}`} style={{ color: 'white' }}>{link.label}</Link>
                     </li>
                 ))}
             </ul>
@@ -59,4 +35,3 @@ function KanbasNavigation() {
 }
 
 export default KanbasNavigation;
-

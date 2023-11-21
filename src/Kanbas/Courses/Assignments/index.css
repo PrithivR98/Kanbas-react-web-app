@@ -1,285 +1,123 @@
-/* Assignments.css */
-
-.assignments-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh; /* Adjust the height as needed */
+.color-red {
+    color: red;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f2f2f2;
+.no-underline {
+    text-decoration: none;
 }
 
-.gray-box {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background-color: #f2f2f2;
+.color-white {
+    color: white;
 }
 
-.icons {
-  display: flex;
-  align-items: center;
+.color-black {
+    color: black;
 }
 
-.text {
-  margin-left: 10px;
+.table-row, .first-li {
+    text-align: center;
 }
 
-/* Customize as needed for other elements */
-
-.element-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f2f2f2;
+.main-table, .wd-grid-col-left-sidebar, .wd-grid-col-main-content, .wd-grid-col-right-sidebar {
+    float: left;
 }
 
-.fa-check {
-  color: green;
+.active {
+    background-color: white;
+    color: gray;
+    margin: 0;
 }
 
-/* Add more styles as needed */
-/* CSS for the layout */
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
+i {
+    padding: 1mm;
 }
 
-.black-bar {
-  width: 100px;
-  background-color: black;
+.user-icon {
+    color: gray;
 }
 
-.white-bar {
-  width: 200px;
-  background-color: white;
+.yt-link {
+    text-decoration: none;
+    color: red;
 }
 
-.main-content {
-  flex-grow: 1;
-  background-color: #f0f0f0; /* Light gray for the main content */
-  padding: 20px; /* Add some padding for content */
+.btn-edit > a {
+    margin: 10px;
 }
 
-.top-image {
-  margin: 20px 0; /* Add space above and below the image */
-  align-items: center;
+.wd-grid-row {
+    clear: both;
+    width: 100%;
 }
 
-  .top-image img {
-      width: 50px; /* Set the width to 50px */
-      height: 50px; /* Set the height to 50px */
-      align-items: center;
-  }
-
-.icon-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* Add some space between icons and text */
-  align-items: center; /* Center the icons horizontally */
+.inline-block, .float-right {
+    display: inline-block;
+    padding: 15px;
 }
 
-  .icon-links a {
-      color: white; /* Set the text color to red */
-      text-decoration: none;
-      font-size: 14px; /* Smaller font size for the words */
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center text and icon vertically */
-  }
-
-      .icon-links a i {
-          color: red; /* Set the icon color to red */
-          font-size: 24px; /* Smaller font size for the icons */
-      }
-
-      .icon-links a:hover {
-          color: #ccc; /* Change text color on hover */
-      }
-
-.white-bar {
-  width: 200px;
-  height: 100vh;
-  background-color: white;
-  text-align: Left;
-  margin-top:80px;
-  margin-left:20px;
+.sub-li {
+    padding-left: 100px;
 }
 
-  .white-bar a {
-      color: red;
-      display: block;
-      margin-bottom: 10px; /* Add margin between links */
-  }
-
-
-.list-group-item.list-group-item-secondary a.text-danger {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin: 5px;
-  color: black !important; /* Added this line to change the color to black */
-  text-decoration: none; /* Added this line to remove the underline */
+.assignment-list-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-.list-unstyled li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-}
-.flex-container{
-  display:flex;
-  justify-content:space-between;
-  
+.assignment-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
 }
 
-.header-container {
-  background-color: #ccc; /* Gray background color for the header */
-  padding: 10px; /* Add padding for spacing */
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Vertically center content */
-  justify-content: space-between; /* Space between elements */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: papayawhip;
+    border-radius: 5px;
 }
 
-.element-container {
-  background-color: white; /* Gray background color for the header */
-  padding: 10px; /* Add padding for spacing */
-  display: flex; /* Use flexbox for layout */
-  align-items: center;
-  align-content: flex-start;
-  justify-content: space-between; /* Space between elements */
-  border: solid;
+.title-box {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
-/* CSS for the layout */
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
+.assignment-list-title {
+    flex-grow: 1;
 }
 
-.black-bar {
-  width: 100px;
-  background-color: black;
+.percentage-capsule {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
 }
 
-.white-bar {
-  width: 200px;
-  background-color: white;
+.right-items, .item-left, .item-right {
+    display: flex;
+    align-items: center;
 }
 
-.main-content {
-  flex-grow: 1;
-  background-color: #f0f0f0; /* Light gray for the main content */
-  padding: 20px; /* Add some padding for content */
+.item-right {
+    margin-left: 770px;
 }
 
-.top-image {
-  margin: 20px 0; /* Add space above and below the image */
-  align-items: center;
+.float-right {
+    float: right;
 }
 
-  .top-image img {
-      width: 50px; /* Set the width to 50px */
-      height: 50px; /* Set the height to 50px */
-      align-items: center;
-  }
-
-.icon-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* Add some space between icons and text */
-  align-items: center; /* Center the icons horizontally */
-}
-
-  .icon-links a {
-      color: white; /* Set the text color to red */
-      text-decoration: none;
-      font-size: 14px; /* Smaller font size for the words */
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center text and icon vertically */
-  }
-
-      .icon-links a i {
-          color: red; /* Set the icon color to red */
-          font-size: 24px; /* Smaller font size for the icons */
-      }
-
-      .icon-links a:hover {
-          color: #ccc; /* Change text color on hover */
-      }
-
-.white-bar {
-  width: 200px;
-  height: 100vh;
-  background-color: white;
-  text-align: Left;
-  margin-top:80px;
-  margin-left:20px;
-}
-
-  .white-bar a {
-      color: red;
-      display: block;
-      margin-bottom: 10px; /* Add margin between links */
-  }
-
-
-.list-group-item.list-group-item-secondary a.text-danger {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin: 5px;
-  color: black !important; /* Added this line to change the color to black */
-  text-decoration: none; /* Added this line to remove the underline */
-}
-
-.list-unstyled li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-}
-.flex-container{
-  display:flex;
-  justify-content:space-between;
-  
-}
-
-.header-container {
-  background-color: #ccc; /* Gray background color for the header */
-  padding: 10px; /* Add padding for spacing */
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Vertically center content */
-  justify-content: space-between; /* Space between elements */
-}
-
-.element-container {
-  background-color: white; /* Gray background color for the header */
-  padding: 10px; /* Add padding for spacing */
-  display: flex; /* Use flexbox for layout */
-  align-items: center;
-  align-content: flex-start;
-  justify-content: space-between; /* Space between elements */
-  border: solid;
+.margin-right {
+    margin-right: 10px; /* Adjust the value as needed */
 }

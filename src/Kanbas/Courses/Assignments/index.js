@@ -58,7 +58,7 @@ function Assignments() {
                             <li key={index} className="list-group-item">
                                 <div>
                                     
-                                    <h4> {assign.title}</h4>
+                                    <h4><FontAwesomeIcon icon={faBookReader} className="item-icon" /> {assign.title}</h4>
                                     <h5>{assign.course}</h5>
                                 </div>
                                 <Link
