@@ -1,7 +1,7 @@
 import JavaScript from "./JavaScript"
 import Classes from "./Classes";
 import Styles from "./Styles";
-//import ConditionalOutput from "./ConditionalOutput";
+import ConditionalOutput from "./ConditionalOutput";
 import TodoList from "./todos/TodoList";
 import { useSelector } from "react-redux";
 
@@ -22,6 +22,7 @@ function Assignment3() {
             <Styles />
             <Classes />
             <JavaScript/>
+            <ConditionalOutput />
         </div>
     );
 }
